@@ -1,0 +1,16 @@
+.Grid {
+  width: 480px;
+  height: 480px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #005662;
+  border-radius: 15px;
+}

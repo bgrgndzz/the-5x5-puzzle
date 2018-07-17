@@ -6,12 +6,13 @@ import Cell from '../../components/Cell/Cell';
 class Grid extends Component {
   state = {
     grid: [
-      [0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0],
       [0, 0, 0, 0, 0],
       [0, 0, 0, 0, 0],
       [0, 0, 0, 0, 0],
       [0, 0, 0, 0, 0]
-    ]
+    ],
+    counter: 0
   }
   render() {
     return (

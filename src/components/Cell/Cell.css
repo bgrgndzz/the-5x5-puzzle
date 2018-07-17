@@ -1,0 +1,21 @@
+.Cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #F0F0F0;
+  border-radius: 3px;
+  font-size: 1.5em;
+  font-weight: 900;
+  color: white;
+  transition: .25s ease all;
+}
+.Cell:not(.selected) {
+  cursor: pointer;
+}
+.Cell:hover{
+  background-color: #4fb3bf;
+}
+.Cell.selected {
+  background-color: #00838f;
+}

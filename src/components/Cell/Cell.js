@@ -4,8 +4,8 @@ import './Cell.css';
 class Cell extends Component {
   render() {
     return (
-      <div className="Cell">
-        <span>{this.props.value}</span>
+      <div className={this.props.value === 0 ? 'Cell' : 'Cell selected'}>
+        <span>{this.props.value === 0 ? null : this.props.value}</span>
       </div>
     );
   }
